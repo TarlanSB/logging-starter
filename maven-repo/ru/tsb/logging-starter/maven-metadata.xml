@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ru.tsb</groupId>
+  <artifactId>logging-starter</artifactId>
+  <versioning>
+    <latest>1.2-SNAPSHOT</latest>
+    <versions>
+      <version>1.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250215011234</lastUpdated>
+  </versioning>
+</metadata>
