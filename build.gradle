@@ -4,19 +4,23 @@ plugins {
 }
 
 group = 'ru.tsb'
-version = '1.2-SNAPSHOT'
+version = '1.4-SNAPSHOT'
 
 repositories {
     mavenLocal()
     mavenCentral()
 }
 
+def springVersion = '3.2.5'
+
 dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-web:${springVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-aop:${springVersion}"
 }
 
-publishing{
-    publications{
-        maven(MavenPublication){
+publishing {
+    publications {
+        maven(MavenPublication) {
             groupId = rootProject.getGroup()
             artifactId = rootProject.getName()
             version = rootProject.getVersion()
@@ -25,7 +29,7 @@ publishing{
     }
 
     repositories {
-        maven{
+        maven {
             url = "file://${project.projectDir.toString()}/maven-repo/"
         }
     }
