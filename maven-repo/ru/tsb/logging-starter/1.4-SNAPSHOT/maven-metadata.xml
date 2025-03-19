@@ -3,26 +3,26 @@
   <groupId>ru.tsb</groupId>
   <artifactId>logging-starter</artifactId>
   <versioning>
-    <lastUpdated>20250318110916</lastUpdated>
+    <lastUpdated>20250319034305</lastUpdated>
     <snapshot>
-      <timestamp>20250318.110916</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250319.034305</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.4-20250318.110916-1</value>
-        <updated>20250318110916</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
-        <value>1.4-20250318.110916-1</value>
-        <updated>20250318110916</updated>
+        <value>1.4-20250319.034305-2</value>
+        <updated>20250319034305</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.4-20250318.110916-1</value>
-        <updated>20250318110916</updated>
+        <value>1.4-20250319.034305-2</value>
+        <updated>20250319034305</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.4-20250319.034305-2</value>
+        <updated>20250319034305</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
